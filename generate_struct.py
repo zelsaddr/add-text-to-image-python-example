@@ -5,7 +5,7 @@ import random
 
 def generate_struct(fname, hashtag1, hashtag2, date):
     font = ImageFont.truetype('./thermal-receipt.ttf', size=34)
-    img = Image.open('./receipt.jpg')
+    img = Image.open('./sample.jpg')
     draw = ImageDraw.Draw(img)
 
     draw.text((80, 451), "#"+str(hashtag1), fill=(64,60,59,255), font=font)
